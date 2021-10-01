@@ -1,0 +1,30 @@
+body{ background-color: rgb(65, 62, 62);}
+
+.terminalbox{
+    background-color: grey;
+    position: relative;
+    overflow-wrap: break-word;
+    overflow-y: auto;
+    height: 500px;
+    width: 95%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.terminalbox-wrapper{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    width: 56%;
+    flex-direction: row;
+    margin-left: 22%;
+}
+
+
+.vlanform{
+    bottom: -8px !important;
+    position: relative;
+    left: 1px !important;
+    color: white;
+    height: 137px;
+}
